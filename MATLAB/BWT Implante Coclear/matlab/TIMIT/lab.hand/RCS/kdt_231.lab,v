@@ -1,0 +1,35 @@
+head	1.1;
+access;
+symbols;
+locks
+	pault:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	98.06.05.09.58.51;	author pault;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#
+    0.564665  121 sil
+    0.681643  121 ay
+    0.811715  121 aa
+    0.852744  121 n
+    0.920175  121 er
+    0.976918  121 m
+    1.065960  121 ay
+    1.141908  121 m
+    1.356658  121 aa
+    1.488476  121 m
+@

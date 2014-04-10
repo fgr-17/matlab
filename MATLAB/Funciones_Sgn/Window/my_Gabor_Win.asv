@@ -1,0 +1,30 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Archivo: my_Gabor_Win.m
+%
+%   function my_Gabor_Win
+%
+%   Autor: ROUX, Federico G. (rouxfederico@gmail.com)
+%
+%   Profesor: PESSANA, Franco
+%   Procesamiento Digital de Señales(PDS)
+%   Departamento de Ing.Electrónica.
+%   Facultad Buenos Aires
+%   Universidad Tecnológica Nacional
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+function [w t] = my_Gabor_Win(a, t0, N, Fs)
+
+    Ts = 1/Fs;
+
+    t = 0:(N - 1);
+    t = t * Ts;
+    t = t - t0;
+
+    k0
+    
+    w = (1 / (2*((pi * a)^(1/2)))) * exp((-(t).^2))/(4 * a)';
+
+end

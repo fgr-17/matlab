@@ -1,0 +1,26 @@
+----------------------------------------------------------------
+              Valores característicos del error :
+----------------------------------------------------------------
+
+soporte -8 +8
+Error medio = 0.000055 
+Error maximo = 0.000237 
+Error acumulado = 0.010908 
+
+soporte -4 +4
+Error medio = 0.000073 
+Error maximo = 0.000243 
+Error acumulado = 0.014625 
+
+
+Kernel del código de la CWT (funcion cwt.m) --- LINEA 229
+	
+for k = 1:nb_SCALES
+    a = scales(k);
+    a_SIG = a/stepSIG;
+    j = 1+floor((0:a_SIG*xMaxWAV)/(a_SIG*stepWAV));     
+    if length(j)==1 , j = [1 1]; end
+    f            = fliplr(val_WAV(j));
+    coefs(ind,:) = -sqrt(a)*wkeep1(diff(wconv1(val_SIG,f)),lenSIG);
+    ind          = ind+1;
+end

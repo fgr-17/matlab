@@ -1,0 +1,80 @@
+head	1.2;
+access;
+symbols;
+locks
+	pault:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	98.06.17.09.51.37;	author pault;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	98.06.05.09.58.51;	author pault;	state Exp;
+branches;
+next	;
+
+
+desc
+@..
+@
+
+
+1.2
+log
+@Changed l= to l in word "excluded"
+@
+text
+@signal kdt_043
+type 0
+color 121
+comment created using xlabel Wed May 28 21:44:11 1997
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.517023  121 sil
+    0.605622  121 eh
+    0.634202  121 l
+    0.653516  121 dx
+    0.724515  121 ax
+    0.778246  121 l
+    0.883486  121 iy
+    0.935583  121 pcl
+    0.971762  121 p
+    1.055696  121 iy
+    1.097181  121 pcl
+    1.129983  121 p
+    1.173399  121 l=
+    1.229838  121 er
+    1.299356  121 r
+    1.424258  121 ah
+    1.520252  121 f
+    1.544371  121 ax
+    1.569937  121 n
+    1.642002  121 eh
+    1.663383  121 kcl
+    1.685528  121 k
+    1.750435  121 s
+    1.808469  121 kcl
+    1.836723  121 k
+    1.881013  121 l
+    1.976464  121 uh
+    1.997082  121 dx
+    2.087951  121 ax
+    2.152095  121 dcl
+    2.188748  121 d
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d34 1
+a34 1
+    1.881013  121 l=
+@

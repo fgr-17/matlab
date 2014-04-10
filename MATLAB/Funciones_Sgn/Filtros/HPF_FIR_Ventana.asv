@@ -1,0 +1,46 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Archivo : HPF_FIR_Ventana.m
+%
+%   Función:
+%       function [h_k] = HPF_FIR_Ventana(fc, N, fs, win)
+%   
+%   Parámetros de Entrada:
+%   - fc:       Frecuencia de corte del filtro
+%   - N:        Cantidad de coeficientes del filtro
+%   - fs:       Frecuencia de muestreo utilizada
+%
+%   Parámetros de salida:
+%   - hk:       Coeficientes del filtro
+%
+%   Autor: ROUX, Federico G. (rouxfederico@gmail.com)
+%   
+%   Profesor: PESSANA, Franco
+%   Procesamiento Digital de Señales(PDS)
+%   Departamento de Ing.Electrónica.
+%   Facultad Buenos Aires
+%   Universidad Tecnológica Nacional
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function [h_k t] = HPF_FIR_Ventana(fc, N, fs, win)
+
+t0 = (N - 1)/2 ;                                                                    % Retardo para centrar la respuesta en frecuencia
+wc = 2*pi*fc/fs;                                                                    % Pulsación de corte
+%A = ((pi - wc)/ pi);                                                               % Amplitud normalizada
+A = (pi - wc)/(pi);
+
+switch(win)
+    
+    case 'rectangular'                                                              % 
+        [h_k t] = mySinc(A, fc, t0 ,N , fs);                                        % Genero la función Sinc
+        alt = (-1).^(0:(N - 1));                                                    % Array para alternar el signo
+        h_k = h_k .* alt;                                                           % Alterno el signo de las muestras
+    
+    otherwise
+        h_k = 0;
+        t = 0;
+        
+end
+
+end

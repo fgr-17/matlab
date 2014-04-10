@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Archivo : BPF_FIR_Ventana.m         Filtro pasabanda
+%
+%   Función:
+%       function [h_k] = BPF_FIR_Ventana(f1, f2, N, fs, win)
+%   
+%   Parámetros de Entrada:
+%   - f1:       Frecuencia de inicio de la banda de paso
+%   - f2:       Frecuencia de fin de la banda de paso 
+%   - N:        Cantidad de coeficientes del filtro
+%   - fs:       Frecuencia de muestreo utilizada
+%
+%   Parámetros de salida:
+%   - hk:       Coeficientes del filtro
+%
+%   Autor: ROUX, Federico G. (rouxfederico@gmail.com)
+%   
+%   Profesor: PESSANA, Franco
+%   Procesamiento Digital de Señales(PDS)
+%   Departamento de Ing.Electrónica.
+%   Facultad Buenos Aires
+%   Universidad Tecnológica Nacional
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function [h_k t] = BPF_FIR_Ventana(f1, f2, N, fs, win)
+
+switch(win)
+
+    case 'rectangular'
+        
+    
+    otherwise
+        h_k = 0;
+        t = 0;
+end
+
+end

@@ -1,0 +1,36 @@
+signal /data/cstrtimit/ked/wav/kdt_269.wav
+type 0
+comment created using xlabel Fri Jun 12 13:58:40 1998
+color 146
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 2
+#
+    0.193234  121 sil ; ref 0
+    0.227872  121 dcl ; ref 1
+    0.252046  121 d ; ref 2
+    0.303547  121 uw ; ref 3
+    0.461203  121 ey ; ref 4
+    0.503244  121 tcl ; ref 5
+    0.547388  121 t ; ref 6
+    0.586276  121 ih ; ref 7
+    0.634624  121 pcl ; ref 8
+    0.661951  121 p ; ref 9
+    0.701891  121 ih ; ref 10
+    0.739728  121 kcl ; ref 11
+    0.763902  121 k ; ref 12
+    0.840628  121 l= ; ref 13
+    0.946783  121 f ; ref 14
+    1.026662  121 aa ; ref 15
+    1.064499  121 r ; ref 16
+    1.129663  121 m ; ref 17
+    1.220053  121 er ; ref 18
+    1.270503  121 z ; ref 19
+    1.313596  121 gcl ; ref 20
+    1.340923  121 g ; ref 21
+    1.374556  121 r ; ref 22
+    1.475456  121 ow ; ref 23
+    1.657298  121 ow ; ref 24
+    1.727718  121 tcl ; ref 25
+    1.747688  121 t ; ref 26
+    1.900088  121 s ; ref 27

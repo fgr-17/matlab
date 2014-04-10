@@ -1,0 +1,19 @@
+signal kdt_070
+type 0
+color 121
+comment created using xlabel Mon Jul 21 11:19:04 1997
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.314706  121 sil ; ref 0 ;
+    0.341982  121 d ; ref 1 ;
+    0.409578  121 ih ; ref 2 ;
+    0.430924  121 dcl ; ref 3 ;
+    0.474802  121 jh ; ref 4 ;
+    0.496149  121 ax ; ref 5 ;
+    0.643200  121 iy ; ref 6 ;
+    0.679963  121 glottal_stop ; ref 7 ;
+    0.747559  121 y ; ref 8 ;
+    0.867335  121 eh ; ref 9 ;
+    0.892239  121 tcl ; ref 10 ;

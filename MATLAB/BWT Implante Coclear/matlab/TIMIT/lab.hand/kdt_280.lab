@@ -1,0 +1,24 @@
+signal kdt_280
+type 0
+color 121
+comment created using xlabel Mon Jul  7 19:39:41 1997
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.487856  121 sil ; ref 0
+    0.526399  121 dh ; ref 1
+    0.587255  121 iy ; ref 2
+    0.710996  121 ow ; ref 3
+    0.821552  121 ey ; ref 4
+    0.921965  121 s ; ref 5
+    0.957464  121 ih ; ref 6
+    1.079177  121 z ; ref 7
+    1.097957  121 w ; ref 8
+    1.137514  121 ax ; ref 9
+    1.195327  121 z ; ref 10
+    1.225755  121 ax ; ref 11
+    1.293711  121 m ; ref 12
+    1.427598  121 er ; ref 13
+    1.696380  121 aa ; ref 14
+    1.825192  121 zh ; ref 15

@@ -1,0 +1,46 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Archivo: Transformada_Gabor.m
+%
+%   function Transformada_Gabor
+%
+%   Parámetros:     x  :    Señal temporal a analizar
+%                   a  :    Compresión de la ventana de Gabor
+%                   N  :    Cantidad de puntos a analizar
+%                   f0 :    Frecuencia de Modulación de la ventana
+%                   Fs :    Frecuencia de muestreo de la señal
+%
+%   Autor: ROUX, Federico G. (rouxfederico@gmail.com)
+%
+%   Profesor: PESSANA, Franco
+%   Procesamiento Digital de Señales(PDS)
+%   Departamento de Ing.Electrónica.
+%   Facultad Buenos Aires
+%   Universidad Tecnológica Nacional
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function [Wmod t] = Transformada_Gabor(x, a, N, f0, Fs)
+
+L = size(x, 2);                                                     % Largo de la señal a analizar
+                                                    
+t0 = zeros(1, N);
+
+ti = 0;                                                             % Tiempo de inicio de análisis
+tf = (N - 1)/Fs;                                                    % Tiempo de fin de análisis
+
+dt = (tf - ti) / N;                                                       % Span temporal
+% Intervalos entre análisis
+t0 = 0:(N - 1);             
+t0 = t0 * tN;
+
+for i = 0: (N - 1)
+    
+end
+[W t]= my_Gabor_Win(a, t0, L, Fs);
+
+fmod = mySin(1, f0, 0, N, Fs);                                       % Señal modulante 1
+
+Wmod = W .* fmod;
+
+end

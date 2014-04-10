@@ -1,0 +1,83 @@
+%% ========================================================================================================================================
+%
+%>  @file       f0_morlet.m
+%
+%>  @brief      mido la f0 de wavelets en diferentes escalas.
+%>  @brief      La Fs es la misma en cualquier escala.
+%>  @brief      MODIFICACIÓN: 
+%
+%
+%>  @author         Roux, Federico G.(rouxfederico@gmail.com)
+%>  @company        RT-DSP UTN.BA
+%==========================================================================================================================================
+
+%% Inicialización del Script
+clc;
+close all;
+clear all;
+
+%% Parámetros para generar la wavelet Morlet
+tini = -8;                                                                  % Inicio del soporte de la wavelet
+tfin = 8;                                                                   % Final del soporte de la wavelet
+N = 1024;                                                                   % Cantidad de muestras
+
+soporte = tfin - tini;                                                      % soporte de la wavelet Morlet
+
+Ts = soporte / (N - 1);                                                     % Período de muestreo
+Fs = 1 / Ts;                                                                % Frecuencia de muestreo
+
+[w t] = my_Morlet(tini, tfin, N);                                           % Genero la primer wavelet completa
+
+%% primer wavelet N = 256
+
+[w1 N1] =  Escalar_Wavelet(w, t, 1);                                        % Escalo a la escala 1
+
+W1 = abs(fft(w1));                                                          % Valor absoluto de la transformada de Fourier
+[f1max i1max] = max(W1);                                                    % Calculo el máximo del espectro
+
+f1_eje = (0:(N1 - 1))*(Fs/(N1 - 1));                                        % Array de frecuencias
+
+f1_max = f1_eje(i1max);                                                     % Extraigo el valor de frecuencia máxima analizada
+f1_asc = Frecuencia_Asociada_Escala(w, Fs, 1);                             % Hago lo mismo pero con una función.
+
+t1 = (0:(N1 - 1))/Fs;                                                       % Calculo para hacer el gráfico
+%% segunda wavelet n = 1024
+
+[w2 N2]=  Escalar_Wavelet(w, t, 2);                                         % Escalo a 2
+
+W2 = abs(fft(w2));                                                          % Calculo módulo de la FFT
+[f2max i2max] = max(W2);                                                    % Calculo el máximo del mód. de la fft
+
+f2_eje = (0:(N2 - 1))*(Fs/(N2 - 1));                                        % Armo eje frecuencial, la Fs es la misma pero hay menos muestras
+
+f2_max = f2_eje(i2max);                                                     % Ubico el máximo sobre el eje de frecuencias
+f2_asc = Frecuencia_Asociada_Escala(w, Fs, 2);                              %
+
+t2 = (0:(N2 - 1))/Fs;                                                        % Calculo para hacer el gráfico
+%% Grafico los resultados:
+
+NF = 2;
+NC = 2;
+
+subplot(NF, NC, 1);
+PlotTiempo(w1, t1, 'wavelet Escala 1', 't', 'w[t]', 0, '-g');
+
+subplot(NF, NC, 2);
+PlotFFT(w1, Fs, 'Espectro de la wavelet N = 256', 0, 'W[f]');
+
+subplot(NF, NC, 3);
+PlotTiempo(w2, t2, 'wavelet N =1024', 't', 'w[t]', 0, '-g');
+
+subplot(NF, NC, 4);
+PlotFFT(w2, Fs, 'Espectro de la wavelet N =1024', 0, 'W[f]');
+
+fprintf('ESCALA 1:\n\n');
+fprintf('---------------------------------------------\n');
+fprintf('Frecuencia asociada calculo manual: %.2f [Hz]\n', f1_max);
+fprintf('Frecuencia asociada con función: %.2f [Hz]\n', f1_asc);
+
+fprintf('ESCALA 2:\n\n');
+fprintf('---------------------------------------------\n');
+fprintf('Frecuencia asociada calculo manual : %.2f [Hz]\n', f2_max);
+fprintf('Frecuencia asociada con función: %.2f [Hz]\n', f2_asc);
+

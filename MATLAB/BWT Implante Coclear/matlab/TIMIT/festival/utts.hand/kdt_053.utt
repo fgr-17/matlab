@@ -1,0 +1,311 @@
+EST_File utterance
+DataType ascii
+version 2
+EST_Header_End
+Features max_id 120 ; type Text ; iform nil ; fileid kdt_053 ; 
+Stream_Items
+1 id _1 ; end 2.58733 ; name "4" ; 
+2 id _2 ; end 0.529728 ; name even ; wordlab "1" ; 
+3 id _3 ; end 0.582025 ; name a ; wordlab "2" ; 
+4 id _4 ; end 0.911741 ; name simple ; wordlab "3" ; 
+5 id _5 ; end 1.58613 ; name vocabulary ; wordlab "4" ; 
+6 id _6 ; end 2.01746 ; name contains ; wordlab "5" ; 
+7 id _7 ; end 2.5886 ; name symbols ; wordlab "6" ; 
+8 id _8 ; end 0.45364 ; name iy.v ; stress 1 ; 
+9 id _9 ; end 0.529623 ; name ax.n ; stress 0 ; 
+10 id _10 ; end 0.582465 ; name ah ; stress 0 ; 
+11 id _11 ; end 0.854657 ; name s.ih.m.p ; stress 1 ; 
+12 id _12 ; end 0.911741 ; name el ; stress 0 ; 
+13 id _13 ; end 1.13226 ; name v.ow.k ; stress 0 ; 
+14 id _14 ; end 1.29202 ; name ae.b ; stress 1 ; 
+15 id _15 ; end 1.39462 ; name ih.l ; stress 0 ; 
+16 id _16 ; end 1.51573 ; name ae.r ; stress 1 ; 
+17 id _17 ; end 1.58613 ; name iy ; stress 0 ; 
+18 id _18 ; end 1.80068 ; name k.en.t ; stress 0 ; 
+19 id _19 ; end 1.9771 ; name ey.n.t ; stress 1 ; 
+20 id _20 ; end 2.01746 ; name s ; stress 0 ; 
+21 id _21 ; end 2.25362 ; name s.ih.m.b ; stress 1 ; 
+22 id _22 ; end 2.58733 ; name el.z ; stress 0 ; 
+23 id _23 ; end 0.3333 ; name pau ; 
+24 id _24 ; end 0.414298 ; name iy ; 
+25 id _25 ; end 0.45364 ; name v ; 
+26 id _26 ; end 0.485653 ; name ax ; 
+27 id _27 ; end 0.529623 ; name n ; 
+28 id _28 ; end 0.582465 ; name ah ; 
+29 id _29 ; end 0.707704 ; name s ; 
+30 id _30 ; end 0.761317 ; name ih ; 
+31 id _31 ; end 0.797959 ; name m ; 
+32 id _32 ; end 0.854657 ; name p ; 
+33 id _33 ; end 0.911741 ; name el ; 
+34 id _34 ; end 0.956766 ; name v ; 
+35 id _35 ; end 1.05628 ; name ow ; 
+36 id _36 ; end 1.13226 ; name k ; 
+37 id _37 ; end 1.24179 ; name ae ; 
+38 id _38 ; end 1.29202 ; name b ; 
+39 id _39 ; end 1.33637 ; name ih ; 
+40 id _40 ; end 1.39462 ; name l ; 
+41 id _41 ; end 1.4544 ; name ae ; 
+42 id _42 ; end 1.51573 ; name r ; 
+43 id _43 ; end 1.58613 ; name iy ; 
+44 id _44 ; end 1.65375 ; name k ; 
+45 id _45 ; end 1.73931 ; name en ; 
+46 id _46 ; end 1.80068 ; name t ; 
+47 id _47 ; end 1.90001 ; name ey ; 
+48 id _48 ; end 1.95123 ; name n ; 
+49 id _49 ; end 1.9771 ; name t ; 
+50 id _50 ; end 2.01746 ; name s ; 
+51 id _51 ; end 2.0723 ; name s ; 
+52 id _52 ; end 2.13825 ; name ih ; 
+53 id _53 ; end 2.22154 ; name m ; 
+54 id _54 ; end 2.25362 ; name b ; 
+55 id _55 ; end 2.36951 ; name el ; 
+56 id _56 ; end 2.58733 ; name z ; 
+57 id _57 ; end 2.78732 ; name pau ; 
+58 id _58 ; end 0.33 ; name sil ; tilt_start_f0 0 ; 
+59 id _59 ; end 0.505 ; name a ; tilt_start_f0 130.019 ; tilt_amplitude 9.265 ; tilt_duration 0.175 ; tilt_tilt 1 ; tilt_peak_pos 0 ; syllink "1.1" ; 
+60 id _60 ; end 0.8 ; name a ; tilt_start_f0 139.284 ; tilt_amplitude 1.657 ; tilt_duration 0.295 ; tilt_tilt -0.983 ; tilt_peak_pos 0 ; syllink "3.1" ; 
+61 id _61 ; end 1.05 ; name c ; tilt_start_f0 140.94 ; 
+62 id _62 ; end 1.32 ; name a ; tilt_start_f0 132.315 ; tilt_amplitude 31.551 ; tilt_duration 0.27 ; tilt_tilt -0.432 ; tilt_peak_pos 0 ; syllink "4.1" ; 
+63 id _63 ; end 1.41 ; name c ; tilt_start_f0 110.907 ; 
+64 id _64 ; end 1.57 ; name fb ; tilt_start_f0 100.249 ; tilt_amplitude 5.229 ; tilt_duration 0.16 ; tilt_tilt -0.5 ; tilt_peak_pos 0 ; syllink "4.5" ; 
+65 id _65 ; end 1.7 ; name c ; tilt_start_f0 97.635 ; 
+66 id _66 ; end 1.98 ; name a ; tilt_start_f0 105.601 ; tilt_amplitude 10.824 ; tilt_duration 0.28 ; tilt_tilt 0.267 ; tilt_peak_pos 0 ; syllink "5.2" ; 
+67 id _67 ; end 2.235 ; name a ; tilt_start_f0 110.603 ; tilt_amplitude 16.034 ; tilt_duration 0.255 ; tilt_tilt -0.401 ; tilt_peak_pos 0 ; syllink "6.1" ; 
+68 id _68 ; end 2.37 ; name fb ; tilt_start_f0 97.428 ; tilt_amplitude 0.94 ; tilt_duration 0.135 ; tilt_tilt -0.5 ; tilt_peak_pos 0 ; syllink "6.2" ; 
+69 id _69 ; end 2.59 ; name c ; tilt_start_f0 96.958 ; 
+70 id _70 ; end 2.69 ; name sil ; tilt_start_f0 96.958 ; 
+71 id _120 ; pos 2.23758 ; f0 93.3681 ; 
+72 id _119 ; pos 2.17989 ; f0 106.85 ; 
+73 id _118 ; pos 2.10527 ; f0 98.6666 ; 
+74 id _117 ; pos 1.96417 ; f0 107.005 ; 
+75 id _116 ; pos 1.92562 ; f0 111.464 ; 
+76 id _115 ; pos 1.85035 ; f0 97.7959 ; 
+77 id _114 ; pos 1.69653 ; f0 88.7947 ; 
+78 id _113 ; pos 1.55093 ; f0 97.4109 ; 
+79 id _112 ; pos 1.48506 ; f0 98.1938 ; 
+80 id _111 ; pos 1.42451 ; f0 99.3689 ; 
+81 id _110 ; pos 1.3655 ; f0 105.548 ; 
+82 id _109 ; pos 1.3142 ; f0 115.52 ; 
+83 id _108 ; pos 1.26691 ; f0 120.663 ; 
+84 id _107 ; pos 1.18703 ; f0 118.13 ; 
+85 id _106 ; pos 1.00652 ; f0 136.144 ; 
+86 id _105 ; pos 0.934254 ; f0 134.572 ; 
+87 id _104 ; pos 0.883199 ; f0 114.484 ; 
+88 id _103 ; pos 0.826308 ; f0 135.349 ; 
+89 id _102 ; pos 0.779638 ; f0 143.794 ; 
+90 id _101 ; pos 0.734511 ; f0 128.852 ; 
+91 id _100 ; pos 0.645085 ; f0 122.741 ; 
+92 id _99 ; pos 0.556044 ; f0 135.165 ; 
+93 id _98 ; pos 0.507638 ; f0 109.073 ; 
+94 id _97 ; pos 0.469646 ; f0 133.74 ; 
+95 id _96 ; pos 0.433969 ; f0 104.779 ; 
+End_of_Stream_Items
+Relations
+Relation Phrase ; filename festival/relations//Phrase/kdt_053.Phrase ; 
+7 7 0 0 0 6
+6 6 0 0 7 5
+5 5 0 0 6 4
+4 4 0 0 5 3
+3 3 0 0 4 2
+2 2 1 0 3 0
+1 1 0 2 0 0
+End_of_Relation
+Relation Word ; filename festival/relations//Word/kdt_053.Word ; 
+6 7 0 0 0 5
+5 6 0 0 6 4
+4 5 0 0 5 3
+3 4 0 0 4 2
+2 3 0 0 3 1
+1 2 0 0 2 0
+End_of_Relation
+Relation Syllable ; filename festival/relations//Syllable/kdt_053.Syllable ; 
+15 22 0 0 0 14
+14 21 0 0 15 13
+13 20 0 0 14 12
+12 19 0 0 13 11
+11 18 0 0 12 10
+10 17 0 0 11 9
+9 16 0 0 10 8
+8 15 0 0 9 7
+7 14 0 0 8 6
+6 13 0 0 7 5
+5 12 0 0 6 4
+4 11 0 0 5 3
+3 10 0 0 4 2
+2 9 0 0 3 1
+1 8 0 0 2 0
+End_of_Relation
+Relation Segment ; filename festival/relations//Segment/kdt_053.Segment ; 
+35 57 0 0 0 34
+34 56 0 0 35 33
+33 55 0 0 34 32
+32 54 0 0 33 31
+31 53 0 0 32 30
+30 52 0 0 31 29
+29 51 0 0 30 28
+28 50 0 0 29 27
+27 49 0 0 28 26
+26 48 0 0 27 25
+25 47 0 0 26 24
+24 46 0 0 25 23
+23 45 0 0 24 22
+22 44 0 0 23 21
+21 43 0 0 22 20
+20 42 0 0 21 19
+19 41 0 0 20 18
+18 40 0 0 19 17
+17 39 0 0 18 16
+16 38 0 0 17 15
+15 37 0 0 16 14
+14 36 0 0 15 13
+13 35 0 0 14 12
+12 34 0 0 13 11
+11 33 0 0 12 10
+10 32 0 0 11 9
+9 31 0 0 10 8
+8 30 0 0 9 7
+7 29 0 0 8 6
+6 28 0 0 7 5
+5 27 0 0 6 4
+4 26 0 0 5 3
+3 25 0 0 4 2
+2 24 0 0 3 1
+1 23 0 0 2 0
+End_of_Relation
+Relation IntEvent ; filename festival/relations//IntEvent/kdt_053.IntEvent ; 
+13 70 0 0 0 12
+12 69 0 0 13 11
+11 68 0 0 12 10
+10 67 0 0 11 9
+9 66 0 0 10 8
+8 65 0 0 9 7
+7 64 0 0 8 6
+6 63 0 0 7 5
+5 62 0 0 6 4
+4 61 0 0 5 3
+3 60 0 0 4 2
+2 59 0 0 3 1
+1 58 0 0 2 0
+End_of_Relation
+Relation Target ; filename festival/relations//Target/kdt_053.Target ; 
+35 57 0 0 0 34
+34 56 0 0 35 33
+33 55 0 0 34 32
+36 71 32 0 0 0
+32 54 0 36 33 31
+37 72 31 0 0 0
+31 53 0 37 32 30
+38 73 30 0 0 0
+30 52 0 38 31 29
+29 51 0 0 30 28
+28 50 0 0 29 27
+39 74 27 0 0 0
+27 49 0 39 28 26
+40 75 26 0 0 0
+26 48 0 40 27 25
+41 76 25 0 0 0
+25 47 0 41 26 24
+24 46 0 0 25 23
+42 77 23 0 0 0
+23 45 0 42 24 22
+22 44 0 0 23 21
+43 78 21 0 0 0
+21 43 0 43 22 20
+44 79 20 0 0 0
+20 42 0 44 21 19
+45 80 19 0 0 0
+19 41 0 45 20 18
+46 81 18 0 0 0
+18 40 0 46 19 17
+47 82 17 0 0 0
+17 39 0 47 18 16
+48 83 16 0 0 0
+16 38 0 48 17 15
+49 84 15 0 0 0
+15 37 0 49 16 14
+14 36 0 0 15 13
+50 85 13 0 0 0
+13 35 0 50 14 12
+51 86 12 0 0 0
+12 34 0 51 13 11
+52 87 11 0 0 0
+11 33 0 52 12 10
+53 88 10 0 0 0
+10 32 0 53 11 9
+54 89 9 0 0 0
+9 31 0 54 10 8
+55 90 8 0 0 0
+8 30 0 55 9 7
+56 91 7 0 0 0
+7 29 0 56 8 6
+57 92 6 0 0 0
+6 28 0 57 7 5
+58 93 5 0 0 0
+5 27 0 58 6 4
+59 94 4 0 0 0
+4 26 0 59 5 3
+60 95 3 0 0 0
+3 25 0 60 4 2
+2 24 0 0 3 1
+1 23 0 0 2 0
+End_of_Relation
+Relation SylStructure ; ()
+10 56 0 0 0 9
+9 55 8 0 10 0
+8 22 0 9 0 7
+14 54 0 0 0 13
+13 53 0 0 14 12
+12 52 0 0 13 11
+11 51 7 0 12 0
+7 21 6 11 8 0
+6 7 0 7 0 5
+18 50 17 0 0 0
+17 20 0 18 0 16
+21 49 0 0 0 20
+20 48 0 0 21 19
+19 47 16 0 20 0
+16 19 0 19 17 15
+24 46 0 0 0 23
+23 45 0 0 24 22
+22 44 15 0 23 0
+15 18 5 22 16 0
+5 6 0 15 6 4
+30 43 29 0 0 0
+29 17 0 30 0 28
+32 42 0 0 0 31
+31 41 28 0 32 0
+28 16 0 31 29 27
+34 40 0 0 0 33
+33 39 27 0 34 0
+27 15 0 33 28 26
+36 38 0 0 0 35
+35 37 26 0 36 0
+26 14 0 35 27 25
+39 36 0 0 0 38
+38 35 0 0 39 37
+37 34 25 0 38 0
+25 13 4 37 26 0
+4 5 0 25 5 3
+42 33 41 0 0 0
+41 12 0 42 0 40
+46 32 0 0 0 45
+45 31 0 0 46 44
+44 30 0 0 45 43
+43 29 40 0 44 0
+40 11 3 43 41 0
+3 4 0 40 4 2
+48 28 47 0 0 0
+47 10 2 48 0 0
+2 3 0 47 3 1
+52 27 0 0 0 51
+51 26 50 0 52 0
+50 9 0 51 0 49
+54 25 0 0 0 53
+53 24 49 0 54 0
+49 8 1 53 50 0
+1 2 0 49 2 0
+End_of_Relation
+Relation Intonation ; ()
+End_of_Relation
+End_of_Relations
+End_of_Utterance

@@ -1,0 +1,59 @@
+head	1.1;
+access;
+symbols;
+locks
+	pault:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	98.06.05.09.58.51;	author pault;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@signal kdt_059
+type 0
+color 121
+comment created using xlabel Mon Jun 30 13:14:19 1997
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.511279  121 sil
+    0.532457  121 dh
+    0.572523  121 ax
+    0.689859  121 s
+    0.754537  121 ih
+    0.824939  121 ng
+    0.899919  121 er
+    0.986920  121 z
+    1.052745  121 f
+    1.126008  121 ih
+    1.191831  121 ng
+    1.203278  121 gcl
+    1.219877  121 g
+    1.308022  121 er
+    1.387011  121 h
+    1.451689  121 ae
+    1.467715  121 dx
+    1.530104  121 ax
+    1.622831  121 s
+    1.665759  121 pcl
+    1.696667  121 p
+    1.721279  121 l
+    1.771075  121 ih
+    1.801983  121 n
+    1.826595  121 tcl
+    1.884405  121 t
+    2.017767  121 er
+@

@@ -1,0 +1,32 @@
+signal kdt_277
+type 0
+color 121
+comment created using xlabel Thu Jul 17 11:45:16 1997
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.457345  121 sil ; ref 0
+    0.518831  121 dh ; ref 1
+    0.570971  121 ax ; ref 2
+    0.642986  121 r ; ref 3
+    0.754135  121 ow ; ref 4
+    0.825081  121 z ; ref 5
+    0.860554  121 kcl ; ref 6
+    0.910216  121 k ; ref 7
+    0.956331  121 ao ; ref 8
+    0.978797  121 r ; ref 9
+    1.078121  121 s ; ref 10
+    1.276770  121 aa ; ref 11
+    1.353625  121 zh ; ref 12
+    1.410382  121 s ; ref 13
+    1.477781  121 m ; ref 14
+    1.562916  121 eh ; ref 15
+    1.598389  121 l ; ref 16
+    1.629132  121 dcl ; ref 17
+    1.646869  121 d ; ref 18
+    1.765112  121 s ; ref 19
+    1.818321  121 w ; ref 20
+    1.930652  121 iy ; ref 21
+    1.951936  121 tcl ; ref 22
+    1.970855  121 t ; ref 23
